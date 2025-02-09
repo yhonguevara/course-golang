@@ -11,6 +11,7 @@ import
 // "github.com/yhonguevara/course-golang/files"
 // "github.com/yhonguevara/course-golang/functions"
 // "github.com/yhonguevara/course-golang/arrays_slices"
+// "github.com/yhonguevara/course-golang/maps"
 
 func main() {
 	// fmt.Println("Nombre1", variables.Name)
@@ -52,4 +53,6 @@ func main() {
 	// files.ReadFile2()
 
 	// arrays_slices.Capacity()
+
+	// maps.ShowMaps()
 }
