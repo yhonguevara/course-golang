@@ -1,6 +1,6 @@
 package main
 
-import 
+import "github.com/yhonguevara/course-golang/users"
 
 // "fmt"
 // "runtime"
@@ -55,4 +55,6 @@ func main() {
 	// arrays_slices.Capacity()
 
 	// maps.ShowMaps()
+
+	users.CreateUser()
 }
