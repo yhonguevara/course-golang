@@ -1,14 +1,16 @@
 package main
 
-import (
-	// "fmt"
-	// "runtime"
+import 
 
-	// "github.com/yhonguevara/course-golang/variables"
-	//"github.com/yhonguevara/course-golang/exercises"
-	// "github.com/yhonguevara/course-golang/iterations"
-	"github.com/yhonguevara/course-golang/files"
-)
+// "fmt"
+// "runtime"
+
+// "github.com/yhonguevara/course-golang/variables"
+// "github.com/yhonguevara/course-golang/exercises"
+// "github.com/yhonguevara/course-golang/iterations"
+// "github.com/yhonguevara/course-golang/files"
+// "github.com/yhonguevara/course-golang/functions"
+// "github.com/yhonguevara/course-golang/arrays_slices"
 
 func main() {
 	// fmt.Println("Nombre1", variables.Name)
@@ -48,4 +50,6 @@ func main() {
 	// files.AppendTable()
 	// files.ReadFile1()
 	// files.ReadFile2()
+
+	// arrays_slices.Capacity()
 }
