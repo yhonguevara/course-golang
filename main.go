@@ -1,6 +1,8 @@
 package main
 
-import "github.com/yhonguevara/course-golang/users"
+import (
+	"github.com/yhonguevara/course-golang/webserver"
+)
 
 // "fmt"
 // "runtime"
@@ -12,6 +14,11 @@ import "github.com/yhonguevara/course-golang/users"
 // "github.com/yhonguevara/course-golang/functions"
 // "github.com/yhonguevara/course-golang/arrays_slices"
 // "github.com/yhonguevara/course-golang/maps"
+// "github.com/yhonguevara/course-golang/users"
+// "github.com/yhonguevara/course-golang/exercises"
+// "github.com/yhonguevara/course-golang/models"
+// d "github.com/yhonguevara/course-golang/defer_panic"
+// "github.com/yhonguevara/course-golang/goroutines"
 
 func main() {
 	// fmt.Println("Nombre1", variables.Name)
@@ -56,5 +63,21 @@ func main() {
 
 	// maps.ShowMaps()
 
-	users.CreateUser()
+	// users.CreateUser()
+
+	// Oscar := new(models.Man)
+	// exercises.HumanBreathing(Oscar)
+
+	// Rosmil := new(models.Women)
+	// exercises.HumanBreathing(Rosmil)
+
+	// d.ExamplePanic()
+
+	/* channel1 := make(chan bool)
+	go goroutines.MyNameSlow("Oscar Yhonnerry Guevara Siano", channel1)
+	fmt.Println("Waiting for the channel")
+
+	<-channel1*/
+
+	webserver.Server()
 }
